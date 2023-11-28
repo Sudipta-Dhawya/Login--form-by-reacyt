@@ -1,0 +1,113 @@
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./fuirt.jpg');
+
+    /* background-color:purple; */
+
+  }
+  
+  .login-form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type='email'],
+  input[type='password'] {
+    width: 100%;
+    padding: 10px;
+    padding-left: .5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    
+  }
+  .data-box{
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin-top: 20px; 
+    column-gap: 10px;
+  }
+  .data-show {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    align-items:end;
+    display: grid;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+
+    }
+
+    nav{
+        height:10vh ;
+        background-color: #282c34;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .nav-link{
+        color: white;
+        margin: 1rem;
+        text-decoration: none;
+    }
+    .nav-link:hover{
+        color:orange;
+        
+    }
+    nav .active{
+        color: yellow;
+    }
+    .bg {
+      background-image: url('../C:\Sudipta\learning\Login\login\src\image\matkatus.pic.jpg');
+      height: 100vh;
+      margin-top: -70px;
+      font-size: 50px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    
+  
+  
